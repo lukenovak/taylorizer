@@ -1,0 +1,16 @@
+{
+  "name": "Taylorizer",
+  "version": "1.0",
+  "description": "Making sure the net calls Taylor ham by the right name",
+  "manifest_version": 2,
+  
+  "content_scripts": [{
+    "js": ["main.js"],
+    "matches": ["<all_urls>"]
+  }],
+  
+  "permissions": [
+    "<all_urls>"
+  ]
+
+}
